@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
           pidgeon_hash[name][key]
         end 
         
-        pidgeon_hash[name][key] << new_array.to_s 
+        pidgeon_hash[name][key] << new_key.to_s 
       end 
     end 
     pidgeon_hash
